@@ -12,7 +12,7 @@
 
 <body>
     <div class="container">
-        <!-- hero -->
+        <!-- Hero -->
         <div class="hero-section">
             <header>
                 <div class="social-icons">
@@ -26,13 +26,13 @@
                     </ul>
                 </div>
                 <div class="logo">
-                    <span>nextDestination</span>
+                    <span>next Destination</span>
                 </div>
                 <nav>
                     <input type="checkbox" id="nav-toggle" class="nav-toggle" />
                     <ul class="nav-links">
-                        <li class="link"><a href="./tourpage/index.html">Tour</a></li>
-                        <li class="link"><a href="#">Price</a></li>
+                        <li class="link"><a href="./pages/tourpage/index.html">Travel</a></li>
+                        <li class="link"><a href="./pages/pricePage/index.html">Price</a></li>
                     </ul>
                     <div class="nav-btn">
                         <label for="nav-toggle" class="nav-toggle-label">
@@ -50,7 +50,7 @@
                         </h1>
                     </div>
                     <div class="explore-btn">
-                        <a href="#"> Explore </a>
+                        <a href="#tour-section" class="ep-btn"> Explore </a>
                     </div>
                 </div>
                 <div class="hero-cards-container">
@@ -93,15 +93,19 @@
                 </div>
             </div>
         </div>
-        <!-- about -->
+        <!-- About -->
         <div class="about-section">
-            <h2 class="about-title">About us</h2>
-            <img src="https://picsum.photos/id/61/200/300" alt="img" class="about-img">
-            <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nobis
-                nulla,
-                eligendi fugit repudiandae labore, ab quibusdam velit eum laboriosam sequi cum! Ratione numquam atque
-                ducimus et, a debitis?</p>
-            <a href="#" class="about-email-link">example@gmail.com</a>
+            <div class="about-title">
+                <h2>About us</h2>
+                <div class="underline" style="margin-top: .5rem;"></div>
+            </div>
+            <div class="about-img-container">
+                <img src="https://picsum.photos/id/428/200/300" alt="img" class="about-img">
+            </div>
+            <p class="about-text">Explore the world's wonders with our curated travel experiences. Immerse yourself in
+                captivating landscapes and vibrant cultures. Discover hidden gems and iconic landmarks on your journey.
+                Let us be your guide to unforgettable adventures. Start your next voyage with us today.</p>
+            <a href="#" class="about-email-link fancy-link">example@gmail.com</a>
         </div>
         <!-- Testimoinal -->
         <div class="main">
@@ -135,12 +139,12 @@
                 </article>
             </section>
         </div>
-        <!-- tour -->
-        <div class="tour-section">
+        <!-- Tour -->
+        <div class="tour-section" id="tour-section">
             <div class="tour-content-container">
                 <h2 class="tour-title">Tours</h2>
                 <p class="tour-text">Nothing refreshes the mind, body and soul like travel.</p>
-                <a href="./tourpage/index.html" class="tour-read-more">Read More</a>
+                <a href="./pages/tourpage/index.html" class="tour-read-more t-rm-btn">Read More</a>
             </div>
             <div class="tour-card-container">
                 <div class="tour-card-1">
@@ -186,7 +190,7 @@
             <div class="gallery-content-container">
                 <h2 class="gallery-title">Gallery</h2>
                 <p class="gallery-text">Nothing refreshes the mind, body and soul like travel.</p>
-                <a href="#" class="gallery-read-more">Read More</a>
+                <a href="./pages/galleryPage/index.html" class="gallery-read-more g-rm-btn">Read More</a>
             </div>
             <div class="gallery-card-container">
                 <div class="gallery-card-1">
@@ -227,6 +231,27 @@
                 </div>
             </div>
         </div>
+        <!-- Contact -->
+        <div class="contact-section">
+            <div class="contact-img-container">
+                <img src="https://picsum.photos/id/275/200/300" alt="img" class="contact-img">
+            </div>
+            <p class="contact-text">@Paras9o9 developed this travel site landing page, influenced by "Rivoli".</p>
+            <a href="mailto:parassharma200157@gmail.com" class="contact-link hi">say hi</a>
+        </div>
+        <!-- footer -->
+        <footer>
+            <div class="footer-content">
+                <a href="./pages/tourpage/index.html">Travel</a>
+                <div class="footer-col">
+                    <div class="logo">
+                        next Destination
+                    </div>
+                    <a href="">Made by @paras9o9</a>
+                </div>
+                <a href="./pages/pricePage/">Price</a>
+            </div>
+        </footer>
     </div>
 </body>
 <script src="./app.js"></script>
