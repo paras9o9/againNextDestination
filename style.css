@@ -1,0 +1,84 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap'); /* Primary Font */
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap'); /* Secondary Font */
+
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Root Variables */
+:root {
+    /* Primary Colors */
+    --clr-primary-1: hsl(205, 86%, 17%);
+    --clr-primary-2: hsl(205, 77%, 27%);
+    --clr-primary-3: hsl(205, 72%, 37%);
+    --clr-primary-4: hsl(205, 63%, 48%);
+    --clr-primary-5: hsl(205, 78%, 60%);
+    /* ... (Other colors and variables) */
+}
+
+/* Typography */
+:root {
+    --fs-extra-large: 2rem;
+    --fs-large: 1.75rem;
+    --fs-medium: 1.5rem;
+    /* ... (Other font size variables) */
+}
+
+/* Header Styles */
+header {
+    /* ... (Header styles) */
+}
+
+/* Navigation Styles */
+nav {
+    /* ... (Navigation styles) */
+}
+
+/* Nav Links */
+.nav-links {
+    /* ... (Nav links styles) */
+}
+
+/* Social Icons */
+.social-icons {
+    /* ... (Social icons styles) */
+}
+
+/* Hero Section Styles */
+.hero-section {
+    /* ... (Hero section styles) */
+}
+
+/* About Section Styles */
+.about-section {
+    /* ... (About section styles) */
+}
+
+/* Testimonial Section Styles */
+.section-center {
+    /* ... (Testimonial section styles) */
+}
+
+/* Tour Section Styles */
+.tour-section {
+    /* ... (Tour section styles) */
+}
+
+/* Gallery Section Styles */
+.gallery-section {
+    /* ... (Gallery section styles) */
+}
+
+/* Contact Section Styles */
+.contact-section {
+    /* ... (Contact section styles) */
+}
+
+/* Footer Styles */
+footer {
+    /* ... (Footer styles) */
+}
